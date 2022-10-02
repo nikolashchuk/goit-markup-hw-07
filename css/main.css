@@ -778,8 +778,8 @@ img {
 .footer-social-link:hover, .footer-social-link:focus {
   background-color: var(--accent-color);
 }
-.footer-social-link.icon {
-  fill: var(--background-color);
+.footer-social-link .icon {
+  fill: #fff;
   margin: 0;
 }
 

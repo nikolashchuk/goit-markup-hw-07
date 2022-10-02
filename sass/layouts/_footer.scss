@@ -88,9 +88,8 @@
     background-color: var(--accent-color);
   }
 
-  &.icon {
-    fill: var(--background-color);
+  & .icon {
+    fill: #fff;
     margin: 0;
   }
 }
-
