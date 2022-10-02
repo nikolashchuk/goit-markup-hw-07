@@ -25,17 +25,17 @@
   border: 1px solid var(--link-color);
   border-radius: 4px;
   transition: border-color var(--anim-hover);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .clients__link .icon {
   fill: var(--link-color);
   margin: 0;
   transition: fill var(--anim-hover);
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  border-color: var(--accent-color);
 }
 
 .clients__link:focus .icon,

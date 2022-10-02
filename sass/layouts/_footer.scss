@@ -16,6 +16,7 @@
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .footer-logo-special {
   color: var(--accent-color);
 }
@@ -86,9 +87,10 @@
   &:focus {
     background-color: var(--accent-color);
   }
+
+  &.icon {
+    fill: var(--background-color);
+    margin: 0;
+  }
 }
 
-.footer-social-link .icon {
-  fill: var(--background-color);
-  margin: 0;
-}
